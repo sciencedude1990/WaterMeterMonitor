@@ -6,3 +6,5 @@ This kind of project has been done before, but it is really easy with the raspbe
 The main program is: connect to the internet, get the real-time clock synchronized, start taking magnetometer measurements in one thread, and serve up the webserver in the other thread.
 
 All done in Micropython!
+
+The main file is: serve_file_water_webpage.py  Once you have it customized, then you can rename it main.py so that it runs without Thonny.
