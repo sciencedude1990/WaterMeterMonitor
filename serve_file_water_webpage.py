@@ -314,7 +314,7 @@ except:
     machine.reset()
     
 # Listen
-s.listen(1)
+s.listen(4)
 print('listening on', addr)
 
 # Timeout for the socket accept, i.e., s.accept()
