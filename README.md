@@ -11,3 +11,5 @@ The main file is: serve_file_water_webpage.py  Once you have it customized, then
 
 
 https://hackaday.io/project/189706-water-meter-monitor-with-raspberry-pi-pico-w
+
+This worked on a Neptune 2237 residential water meter.  Completely non-destructive - just put the magnetometer close to the meter.
