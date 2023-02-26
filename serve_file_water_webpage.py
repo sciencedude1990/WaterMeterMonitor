@@ -231,7 +231,7 @@ def read_water_meter_thread():
             if temp > THRESH_HIGH:
                 search_state = 1
                 baton.acquire()
-                water_meter_tick_count = water_meter_tick_count + 1
+                water_meter_tick_count[water_meter_tick_count[7]] = water_meter_tick_count[water_meter_tick_count[7]] + 1
                 baton.release()
             
         elif search_state == 1:
